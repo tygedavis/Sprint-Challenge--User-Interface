@@ -191,10 +191,10 @@ p {
     justify-content: space-between;
     width: 500px;
 }
-
+/* 
 div.container-about-page{
  width: 20%;
-}
+} */
 
 .bottom-content {
     display: flex;
