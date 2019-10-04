@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
 	display: block;
 }
 body {
@@ -64,6 +64,38 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.navhead{
+    color: black;
+    text-decoration: none;
+    margin-right: 14%;
+}
+
+.nav{
+    margin: 2% 5%;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imglogo{
+    margin-left: 19.75%;
+    height: fit-content;
+}
+
+.imgjumbo, .jumbo-about{
+    display: flex;
+    justify-content: center;
+    margin-left: 23.75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container {
@@ -111,6 +143,58 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
+.container-about-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+}
+/* 
+div.container-about-page{
+ width: 20%;
+} */
 
 .bottom-content {
     display: flex;
