@@ -86,10 +86,11 @@ p {
 }
 
 .imglogo{
-    margin-left: 19.75%
+    margin-left: 19.75%;
+    height: fit-content;
 }
 
-.imgjumbo{
+.imgjumbo, .jumbo-about{
     display: flex;
     justify-content: center;
     margin-left: 23.75%;
