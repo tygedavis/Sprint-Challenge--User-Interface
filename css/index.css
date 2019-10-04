@@ -184,6 +184,18 @@ p {
     background: dodgerblue;
 }
 
+.container-about-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+}
+
+div.container-about-page{
+ width: 20%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
